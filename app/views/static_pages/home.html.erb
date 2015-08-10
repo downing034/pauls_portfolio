@@ -23,18 +23,26 @@
   <ul>
     <li>Biking all around the city</li>
     <li>Going to sports games (or catching them on TV)</li>
+    <li>Playing guitar</li>
   </ul>
 </div>
 
 <div class=" col-md-8 col-md-offset-2 gray-bar"></div></br>
 
+<div class="col-md-4">
+  <%= link_to resume_path do %>
+    <div class="well button-div text-center">View My Resume</div>
+  <% end %>
+</div>
 
-<%= link_to resume_path do %>
-  <div class="col-md-4 well button-div text-center">View My Resume</div>
-<% end %>
+<div class="col-md-4">
 <%= link_to completed_apps_path do %>
-  <div class="col-md-4 well button-div text-center">View Completed Apps</div>
+  <div class="well button-div text-center">View Completed Apps</div>
 <% end %>
-<%= link_to in_progress_apps_path do %>
-  <div class="col-md-4 well button-div text-center">View In Progress Apps</div>
-<% end %>
+</div>
+
+<div class="col-md-4">
+  <%= link_to in_progress_apps_path do %>
+    <div class="well button-div text-center">View In Progress Apps</div>
+  <% end %>
+</div>
