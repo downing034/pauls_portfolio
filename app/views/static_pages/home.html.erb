@@ -1,0 +1,40 @@
+<h1 class="name-plate">PAUL DOWNING</h1>
+<div><%= image_tag("saint_paul.jpg", class: "container-fluid profile-image") %></div>
+<div class="photo-circle">
+</div>
+<h2 id="section-font">About me</h2>
+<div>
+  <p class="text-center">My name is Paul.  I hail from the great state of Wisconsin, and yes I am a Packers fan. I graduated from the Univesity
+      of Minnesota - Twin Cities with a Bachelors of Science degree in Business and Sports Management. I've lived in the Twin
+      Cities since 2008 and have grown to love the area.
+  </p>
+</div>
+<div class=" col-md-8 col-md-offset-2 gray-bar"></div></br>
+<h2 id="section-font">Hobbies</h2>
+<div class="col-md-4 col-md-offset-2" id="move-up">
+  <ul>
+    <li>Cruising around to local breweries</li>
+    <li>Checking out area parks</li>
+    <li>Hiking through trails</li>
+  </ul>
+</div>
+
+<div class="col-md-6" id="move-up">
+  <ul>
+    <li>Biking all around the city</li>
+    <li>Going to sports games (or catching them on TV)</li>
+  </ul>
+</div>
+
+<div class=" col-md-8 col-md-offset-2 gray-bar"></div></br>
+
+
+<%= link_to resume_path do %>
+  <div class="col-md-4 well button-div text-center">View My Resume</div>
+<% end %>
+<%= link_to completed_apps_path do %>
+  <div class="col-md-4 well button-div text-center">View Completed Apps</div>
+<% end %>
+<%= link_to in_progress_apps_path do %>
+  <div class="col-md-4 well button-div text-center">View In Progress Apps</div>
+<% end %>
